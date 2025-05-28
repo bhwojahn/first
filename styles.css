@@ -1,0 +1,70 @@
+/* General body style */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 25px;
+  background-color: #f0f0f0;
+  color: hsl(0, 0%, 1%);
+}
+
+/* Main title */
+h1 {
+  text-align: center;
+  color: #e74c3c; /* red */
+  text-transform: uppercase;
+}
+
+/* Subtitles */
+h2 {
+  color: #3498db; /* blue */
+  margin-top: 20px;
+}
+
+/* Paragraph style */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Ordered list */
+ol {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Unordered lists inside ordered list */
+ol ul {
+  margin-top: 5px;
+  padding-left: 20px;
+  color: #555;
+  font-style: italic;
+}
+
+/* Hobby list */
+ul {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Image */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Link */
+a {
+  text-decoration: none;
+  color: #27ae60; /* green */
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
